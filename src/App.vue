@@ -1,8 +1,8 @@
 <script>
-import * as todosApi from './services/todos';
-import StatusFilter from './components/StatusFilter.vue';
-import TodoItem from './components/TodoItem.vue';
-import Message from './components/Message.vue';
+import * as todosApi from '@/services/todos';
+import StatusFilter from '@/components/StatusFilter.vue';
+import TodoItem from '@/components/TodoItem.vue';
+import Message from '@/components/Message.vue';
 
 export default {
   components: {
